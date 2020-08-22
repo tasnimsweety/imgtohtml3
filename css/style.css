@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.wrapper{
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.header {
+    font-size: 15px;
+    font-weight: 400;
+    }
+.logo{
+	float: left;
+	width: 15%;
+	margin-top: 10px;
+	}
+.logo img{
+	width: 100%;
+}
+.icon1{
+	width: 14%;
+	float: right;
+	padding: 18px 18px 0px 0px;
+}
+.ic{float: left;}
+.icon1 .fas {
+    color: #93B846;
+    float: left;
+    padding-right: 10px;
+}
+.icon1 .fab {
+    color: #0A13C9;
+    float: left;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.nev{
+	background-color: #93B846;
+}
+.menu{
+	width: 100%; 
+	float: left;
+	}
+ul {
+	list-style-type: none; 
+	margin:0; 
+	padding: 0 0px 0px 0px; 
+	overflow: hidden;
+}
+ li { 
+	float: left;
+	box-sizing: border-box;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+ li a { 
+	display: block; 
+	color: white; 
+	text-align: center; 
+	font-size: 17px;
+	padding: 10px 65px; 
+	text-decoration: none; 
+	margin: auto;
+	transition: 1s;
+}
+
+li a:hover {
+	border-bottom: 5px solid #6F2B75; 
+}
+.banar{
+	background-image: url(../img/new_banar.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px 0 100px 0;
+
+}
+
+.banar p{
+	color: white;
+	font-size: 35px;
+	font-family: Candara;
+	margin: 0;
+}
+.button{
+	border:none;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	background-color: #93B846;
+	}
+.button a{  
+	color: white;
+	text-decoration: none;
+	}
+.about{
+	padding-top: 50px;
+    width: 100%;
+    background-color: #EBEBEB;
+	text-align: center;
+}
+.mn{
+
+	padding-bottom: 30px;
+}
+.about span{
+	color: #6F2B75; 	
+}
+.about h2{
+	margin: 0; 	
+}
+#a{
+	margin-left: 270px;
+	width: 23%;
+	float: left;
+}
+.about img{
+	float: left;
+}
+#b{
+	width: 23%;
+	float: left;
+}
+.but{
+	border:none;
+	background-color: #93B846;
+	padding: 10px 10px 10px 10px;
+
+}
+.but a{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+.service{
+	width: 31.5%;
+	margin-right: 25px;
+	float: left;
+	text-align: center;
+}
+.service:last-child{
+	margin-right: 0;
+}
+
+.service img{
+	width: 100%;
+	height: 200px;
+}
+.our{
+	margin: 30px 0 0 0;
+}
+.text{
+	width: 75%;
+	margin: auto;
+	background-color: white;
+	margin-top: -50px;
+	border: 1px solid #93B846;
+	display: inline-block;
+	padding-bottom: 10px;
+	box-shadow:0 5px 5px 1px #93B846;
+}
+.text h2{
+	color: #6F2B75;
+	margin: 0;
+}
+.t{
+	background-color: #93B846;
+	box-shadow: none;
+	color: white;
+}
+.text a{
+	text-decoration: none;
+	color: #93B846;
+}
+.t a{
+	color: white;
+}
+.prog {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #EBEBEB;
+	text-align: center;
+	margin: 30px 0;
+}
+#A{
+	margin-left: 427px;
+	width: 9%;
+	float: left;
+}
+#B{
+	width: 9%;
+	float: left;
+}
+.program img{
+	float: left;
+}
+.program h2{
+	margin: 0;
+}
+.tx img{
+	float: left;
+}
+.tx h2{
+	margin: 0;
+}
+tr, th{
+	text-align: left;
+	padding: 10px ; 
+
+}
+tr:nth-child(odd){
+	background-color: white;
+}
+
+.img{
+	float: left;
+	width: 25%;
+}
+.img img{
+	width: 100%;
+}	
+#x{
+	width: 10%;
+	float: left;
+}
+#y{
+	width: 10%;
+	float: left;
+}
+.tx {
+	margin-left: 30px;
+	width: 70%;
+	float: left;
+}
+.ab{
+	background-color: #333333;
+}
+.ab1{
+	width: 27%;
+	float: left;
+	color: white;
+	margin-left: 10px;
+	border-right: 1px solid black;
+}
+.ab1:first-child{
+	width: 19%;
+}
+.ab1:last-child{
+	border-right: none;
+	
+}
+.ab1 a{
+	text-decoration: none;
+	color: white;
+}
+.ab1 button{
+	background-color: #93B846;
+	border: none;
+}
+.ab1 h3{
+	width: 90%;
+	border-bottom: 2px solid black;
+}
+.ab1 input{
+	width: 80%;
+	height: 35px;
+	margin-bottom: 5px;
+}
+.ab2 img{
+	width: 20%;
+	margin:55px 20px;
+}
+.g{
+	background-color: black;
+}
+.footer{
+	color:white;
+}
